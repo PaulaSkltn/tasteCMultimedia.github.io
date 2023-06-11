@@ -1,0 +1,643 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+#cookie-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index: 9999; 
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #F7E135;;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:#6141AC; 
+}
+
+
+
+.actiu {
+	text-decoration: none;
+	color:black;
+	padding:10px;
+	
+}
+
+ul {
+  font-size: 20px; 
+  text-align: center-left;
+}
+
+header{
+height: 183px;
+background-color:#6141AC;
+display: flex;
+align-items: center; 
+justify-content: space-around; 
+}
+
+#fotologo{
+position: absolute;
+width: 214px;
+height: 131px;
+left: 211px;
+top: 24px;
+}
+				
+#menu{
+font-family: 'poppins';
+font-size: 18px;
+left: 500px;
+}
+
+#Escríbenos{
+border-color:black;
+border-radius:4px ;
+border-style: solid ;
+text-decoration: none;
+}
+
+.actiu {
+	text-decoration: none;
+	color:black;
+	padding:10px;
+	
+}
+a:hover{
+	border-bottom: 6px white solid;
+	background-color:#F7E135;
+}
+
+
+.rectanguloamarillo{
+	height: 50px;
+	background-color:#F7E135;
+	display: flex;
+	align-items: center;  
+	justify-content: space-around; 
+	
+	font-family: 'poppins';
+    font-weight: normal;
+    font-size: 8px;
+    display: flex;
+    text-align: center;
+    color: black;
+   
+}
+.btnScrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btnScrollToTop.show {
+  display: block;
+  z-index: 1;
+}
+
+.rectanguloblanco{
+	height: 558px;
+	background-color:white;
+	display: flex;
+	align-items: center;  
+	justify-content: space-around; 
+}
+
+#hamburguesa{
+	position: absolute;
+	width: 879px;
+	height: 558px;
+	left: 8px;
+	top: 266px;
+}
+
+#blanco{
+		
+	position: absolute;
+	width: 548px;
+	height: 226px;
+	left: 950px;
+    top: 420px;
+	font-family: 'poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	
+}
+
+#lengua{
+	position: absolute;
+	width: 256px;
+	height: 153px;
+	left: 720px;
+	top: 500px;
+}
+
+.rectanguloamarillo2{
+	height: 50px;
+	background-color:#F7E135;
+	display: flex;
+	align-items: center;  
+	justify-content: space-around; 
+}
+
+
+.rectanguloblanco2{
+	height: 50px;
+	background-color:white;
+	display: flex;
+	align-items: center;  
+	justify-content: space-around; 
+}
+
+.rectangulolila{
+display: flex;
+align-items: center;
+height: 350px;
+background-color:#6141AC;
+justify-content: space-around;
+}
+#fotosrestaurantes{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50px;
+height: 50px;
+padding:250px;
+top:40px;
+
+}
+
+.col {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  
+}
+
+.rectanguloblanco3{
+	height: 700px;
+	background-color:white;
+	display: flex;
+	align-items: center;  
+	justify-content: space-around; 
+}
+
+
+#textoredes{	
+	position: absolute;
+	width: 548px;
+	height: 226px;
+	font-family: 'poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#textoredes2{
+	position: absolute;
+	width: 548px;
+	height: 226px;
+	top: 1580px;
+	font-family: 'poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#LoTOP{
+	font-size: 50px;
+	left: 50px;
+	top: 1300px;
+	padding: 20px;
+	position: absolute;
+}
+
+#textop{
+	width:456px;
+	position: absolute;
+	left:50px;
+	top: 1450px;
+	padding: 20px;
+	font-family: 'poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 28px;
+	text-align: center-left;
+	text-transform: uppercase;
+	
+}
+
+#Restaurante1{ 
+right:650px;
+position: absolute;
+width: 271px;
+height: 271px;     }
+
+
+#Restaurante1_tipo{
+right:600px;
+position: absolute;
+width: 271px;
+height: 271px; 
+top: 1780px;
+}
+
+ .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #6141AC;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+			text-decoration:none;
+        }
+#Restaurante2_tipo{
+right:300px;
+position: absolute;
+width: 271px;
+height: 271px; 
+top: 1780px;
+}
+
+
+#Restaurante3_tipo{
+right:0px;
+position: absolute;
+width: 271px;
+height: 271px; 
+top: 1780px;
+}
+
+
+#Restaurante2{ 
+right:350px;
+position: absolute;
+width: 271px;
+height: 271px;     }
+
+#Restaurante3{ 
+right:50px;
+position: absolute;
+width: 271px;
+height: 271px;     }
+
+.rating1 {
+  display:flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right:650px;
+}
+
+
+.rating1 input {
+  display: none;
+}
+
+.rating1 label {
+  float:center;
+  color: #ccc;
+  font-size: 25px;
+  
+}
+
+.rating1 label:before {
+  content: "\2605"; 
+  color: #ffc107; 
+  position: relative;
+  display:flex;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  bottom:90px;
+}
+
+.rating1 input:checked {
+  color: #ffc107; 
+}
+
+.rating1 input:checked ~ input:not(:checked) ~ label:before {
+color: #ccc;}
+  
+     
+.rating2 {
+  display:flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right:350px;
+}
+
+
+.rating2 input {
+  display: none;
+}
+
+.rating2 label {
+  float:center;
+  color: #ccc;
+  font-size: 25px;
+  
+}
+
+.rating2 label:before {
+  content: "\2605"; 
+  color: #ffc107; 
+  position: relative;
+  display:flex;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  bottom:90px;
+}
+
+.rating2 input:checked {
+  color: #ffc107; 
+}
+
+.rating2 input:checked ~ input:not(:checked) ~ label:before {
+color: #ccc; }
+  
+  
+  .rating3 {
+  display:flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right:50px;
+}
+
+
+.rating3 input {
+  display: none;
+}
+
+.rating3 label {
+  float:center;
+  color: #ccc;
+  font-size: 25px;
+  
+}
+
+.rating3 label:before {
+  content: "\2605";
+  color: #ffc107; 
+  position: relative;
+  display:flex;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  bottom:90px;
+}
+
+.rating3 input:checked {
+color: #ffc107; }
+
+.rating3 input:checked ~ input:not(:checked) ~ label:before {
+color: #ccc; }
+  
+
+			
+  .footer_amarillo{
+	padding:10px;
+	height: 300px;
+	background-color:#F7E135;
+	text-align:center;
+	align-items: center;  
+	justify-content: space-around; 
+	bottom:0px;
+}
+  
+footer img {
+      margin: 0 10px;
+      width: 50px;
+      height:50px;
+    }
+#footer-politicas{
+	
+padding:50px;
+justify-content:space-around;
+display: flex;
+align-items: center;  
+
+
+	}
+	
+.politicas {
+text-decoration: none;
+color:#000000;
+
+
+}	
+	
+.politicas:hover {
+background-color:#6141AC;
+
+}		
+	
+@media (max-width: 1100px) {
+  header {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #fotologo {
+    position: relative;
+    width: 214px;
+    height: 131px;
+    left: 0;
+    top: 0;
+  }
+  
+  #menu {
+    font-family: 'poppins';
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  
+  .rectanguloblanco {
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: space-around; 
+    padding-bottom: 20px;
+  }
+  
+  #hamburguesa {
+    position: relative;
+    width: 879px;
+    height: 558px;
+    left: 0;
+    top: 0;
+  }
+  
+  #blanco {
+    position: relative;
+    width: 548px;
+    height: 226px;
+    left: 0;
+    top: 0;
+    text-align: center;
+  }
+  
+  #lengua {
+    position: relative;
+    width: 256px;
+    height: 153px;
+    left: 0;
+    top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .rectanguloblanco2 {
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;  
+    justify-content: space-around; 
+    margin-bottom: 20px;
+  }
+  
+  .rectangulolila {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: #6141AC;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .col {
+    flex-basis: 50%;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .rectanguloblanco3 {
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: space-around; 
+    margin-bottom: 20px;
+  }
+  
+  #textop {
+    width: 100%;
+    max-width: 456px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .restaurante {
+    position: relative;
+    width: 100%;
+    max-width: 271px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .rating {
+    justify-content: center;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    float: center;
+    color: #ccc;
+    font-size: 25px;
+  }
+  
+  .rating label:before {
+    content: "\2605";
+    color: #ffc107;
+    position: relative;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    bottom: 90px;
+  }
+  
+  .rating input:checked {
+    color: #ffc107;
+  }
+  
+  .rating input:checked ~ input:not(:checked) ~ label:before {
+    color: #ccc;
+  }
+
+#footer-politicas{
+	
+padding:50px;
+justify-content:space-around;
+display: flex;
+align-items: center;  
+
+	}
+	
+.politicas {
+text-decoration: none;
+color:#000000;
+
+
+}	
+	
+.politicas:hover {
+background-color:#6141AC;
+}	

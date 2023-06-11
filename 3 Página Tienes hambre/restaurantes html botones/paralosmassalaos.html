@@ -1,0 +1,173 @@
+<html lang="es">
+<head>
+    <title>Taste</title>
+	
+    <meta charset="UTF-8">
+    <meta name="description" content="Taste: Selección de mejores restaurantes">
+			<meta name="keywords" content="HTML, CSS, JavaScript">
+			<meta name="author" content="Marta Coronado,Paola Ramos,Paula Ruiz y Judith Tena">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">	
+</head>
+<body>
+<script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+	 
+	<div class="contenedor">
+	<button class="custom-button" onclick="goBack()">🡸</button>
+	<div class="row">
+    <div class="col">
+	<img src="../Restaurante25.png" alt='Vikel's'>
+      <h1>Vikel's</h1>
+      <p>Si eres más salao que tu tío con dos cervezas de más, te recomendamos este acogedor local en el centro de Parets, justamente en <strong>Carrer de la Mina, 8. Abre de lunes a viernes de 8:00–14:00h//16:00–20:30h y sábados de 9:00–14:30h.</strong></p>
+	  <br><strong>MENÚ</strong><br>
+	  Aquí podrás probar una <strong>variedad de tostadas increíbles</strong> como la de aguacate con limón y pimienta o la de queso feta con tomates cherry y piñones. Si no te decides, te recomendamos que pruebes sus increíbles <strong>pizzas</strong>, ¡no podrás comer solo un trozo! Acompaña todo con un increíble <strong>smoothie super green</strong> :)</p>
+      <a href="https://goo.gl/maps/WZSX5YwyERuCDJk19?q=Vikels"   target="_blank">
+	  <img id="mapas" src="mapa.png" width="100" height="100"></a>
+    </div>
+    <div class="col">
+    <img src="../Restaurante26.jpg" alt='Latelier'>
+	
+      <h1>L'atelier</h1>
+      <p>Si te gusta la alta cocina, no dejes escapar la oportunidad de disfrutar de uno de los locales de moda en Barcelona. Te estamos hablando de L'atelier, ubicado en <strong>C. de Viladomat, 140 bis. Abren todos los días de 9:00-20:00h</strong> exceptuando lunes y domingos, donde los horarios son un poco cambiantes.</p>
+	<br><strong>MENÚ</strong><br>
+	Ofrecen una variedad inmensa de opciones a elegir pero, sin duda, te recomendamos que pidas el <strong>menú brunch</strong> (disponible fines de semana) para que disfrutes al máximo de la experiencia. Por <strong>18 euros</strong> podrás disfrutar de una selección increíble de platos, nosotras te recomendamos el <strong>brioche relleno con huevo</strong> a baja temperatura o el <strong> gofre hojaldrado</strong>  con trucha ahumada y crema de aguacate. Escojas lo que escojas, ¡todo será una buena opción!
+	  </p>
+	 <a href="https://goo.gl/maps/b1fMUzBFSqrf1UCF7?q=latelier"   target="_blank">
+	  <img id="mapas" src="mapa.png" width="100" height="100"></a>
+    </div>
+	<div class="col">		
+    <img src="../Restaurante27.jpg" alt='Mauri'>
+	
+      <h1>Mauri</h1>
+      <p>Mauri es uno de los sitios más míticos de Barcelona y el favorito de aquell@s que tienen buen gusto, ¡como seguro que sois vosotr@s!. Ubicado en <strong>Rambla de Catalunya, 102, abre todos los días de 8:00-23:30h</strong> exceptuando viernes y fines de semana, donde el horario cambia un poquito.</p>
+	<br><strong>MENÚ</strong><br>
+	Ofrecen servicio de catering y menú diario, pero nuestra recomendación es que pilles una mesa y te dejes envolver por su increíble variedad de <strong>pastelería salada</strong>. ¿Nuestros favoritos? El <strong>montadito de brie, tomate y cebolla caramelizada, el croissant de sobrasada y la chapata con salmón fresco</strong>. ¡Corre que vuelan!
+	  </p>
+	  <a href="https://goo.gl/maps/RM7xEQp7Vh7WBbTj6?q=mauri"   target="_blank">
+	  <img id="mapas" src="mapa.png" width="100" height="100"></a>
+   
+	</div>
+    </div>
+	</div>
+ 
+	
+<style>
+
+.custom-button {
+      background-color: #6141AC;
+      color: #FFFFFF;
+      padding: 10px 20px;
+      font-size: 16px;
+	  border: none;
+      border-radius: 5px;
+	  height:60px;
+	  width:400px;
+	  margin-right: 20px;
+      cursor: pointer;
+    }
+
+.contenedor{
+	margin: auto;
+	margin-top: 50px;
+	padding-bottom:600px;
+	height: 480px;
+	width: 1000px;
+	display: flex;
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+    	
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  margin: 10px;
+  text-align: center;
+  }
+
+img {
+  width: 200px; 
+  height: 200px;
+}
+
+#mapas{
+width:100px;
+height:100px;
+
+}
+
+			
+ 
+.footer_amarillo{
+	padding:20px;
+	height: 300px;
+	background-color:#F7E135;
+	text-align:center;
+	align-items: center;  
+	justify-content: space-around; 
+	font-family: 'Poppins', sans-serif;
+	bottom:0px;
+}
+  
+footer img {
+      margin: 0 10px;
+      width: 50px;
+      height:50px;
+    }
+#footer-politicas{
+	
+padding:50px;
+justify-content:space-around;
+display: flex;
+align-items: center;  
+
+
+	}
+	
+.politicas {
+text-decoration: none;
+color:#000000;
+
+
+}	
+	
+.politicas:hover {
+background-color:#6141AC;
+
+}
+
+
+}
+</style>
+</body>
+
+<footer class="footer_amarillo">
+<h3>Síguenos en nuestras redes sociales</h3>
+<p>¡No te pierdas nada!</p>
+
+<p>
+	 <a href="https://www.instagram.com/_taste23_/" target="_blank"> <img src="logoinstagram.png"></a>
+	 <a href="https://www.tiktok.com/@_taste23_" target="_blank"> <img src="logotiktok.png"></a>
+	 <a href="https://twitter.com/_taste23_" target="_blank"> <img src="logotwitter.png"></a>
+	 <a href="https://www.facebook.com/profile.php?id=100093456157755" target="_blank"> <img src="logofacebook.png"></a>
+	  </p>
+	  
+<p id="footer-politicas">© 2023 TASTE 
+
+ <a href="politica de privacidad.html" target="_blank" class="politicas">Política de Privacidad </a> 
+ <a href="politica de cookies.html" target="_blank" class="politicas">Política de Cookies </a> 
+ <a href="aviso legal.html" target="_blank" class="politicas">Aviso Legal </a> </p>
+</footer>
+
+
+</html>
+
+	

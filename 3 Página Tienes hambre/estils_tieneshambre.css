@@ -1,0 +1,602 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+header{
+height: 183px;
+background-color:#6141AC;
+display: flex;
+align-items: center; 
+justify-content: space-around; 
+}
+
+
+#fotologo{
+position: absolute;
+width: 214px;
+height: 131px;
+left: 211px;
+top: 24px;
+}
+
+button {
+  background-color: #F7E135;;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+				
+#menu{
+font-family: 'poppins';
+font-size: 18px;
+left: 500px;
+}
+
+#Escríbenos{
+border-color:black;
+border-radius:4px ;
+border-style: solid ;
+text-decoration: none;
+}
+
+.actiu {
+	text-decoration: none;
+	color:black;
+	padding:10px;
+}
+a:hover{
+	border-bottom: 6px white solid;
+	background-color:#F7E135;
+}
+
+ .btnScrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnScrollToTop.show {
+  display: block;
+}
+
+	
+	 .container img {
+		   padding-top:50px;
+            width: 100%;
+            height: auto;
+        }
+
+.container .text {
+            position: absolute;
+			padding-top:100px;
+            top: 60%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            color: #fff;
+        }
+		
+		
+	.secciones{
+            text-align: center;
+        }
+
+        .main-text {
+            font-size: 24px;
+            margin-bottom: 20px;
+			text-align:center;
+        }
+
+        .photo-container {
+            display: flex;
+            justify-content: center;
+
+        }
+		
+
+        .photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 20%;
+            margin: 10px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }	
+	
+	
+	     .brunch{
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .main-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .photo-container_restaurantes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .photo_restaurantes{
+            width: 00px;
+            margin: 10px;
+        }
+
+        .photo_restaurantes img {
+            width: 100%;
+            height: auto;
+        }
+
+        
+	ul {
+            list-style-type: none;
+			justify-content:center;
+			text-align:center;
+			display: inline-block;
+			font-size: 18px;
+            margin-bottom: 20px;
+			padding-left:10px;
+			
+			
+			
+        }
+	 .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #6141AC;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+			text-decoration:none;
+        }
+		
+	.btn:hover {
+  background-color:#F7E135;
+}
+		
+		
+		
+	   .casadimamma{
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .main-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .photo-container_restaurantes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .photo_restaurantes{
+            width: 200px;
+            margin: 10px;
+        }
+
+        .photo_restaurantes img {
+            width: 100%;
+            height: auto;
+        }
+
+        
+	ul {
+            list-style-type: none;
+			justify-content:center;
+			text-align:center;
+			display: inline-block;
+			font-size: 18px;
+            margin-bottom: 20px;
+			padding-left:10px;
+			
+			
+			
+        }
+	 .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #6141AC;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+		
+	.btn:hover {
+  background-color:#F7E135;
+}	
+		
+		.conpalillos{
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .main-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .photo-container_restaurantes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .photo_restaurantes{
+            width: 200px;
+            margin: 10px;
+        }
+
+        .photo_restaurantes img {
+            width: 100%;
+            height: auto;
+        }
+
+        
+	ul {
+            list-style-type: none;
+			justify-content:center;
+			text-align:center;
+			display: inline-block;
+			font-size: 18px;
+            margin-bottom: 20px;
+			padding-left:10px;
+			
+			
+			
+        }
+	 .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #6141AC;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+		
+	.btn:hover {
+  background-color:#F7E135;
+}	
+		
+ .E.E.U.U.{
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .main-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .photo-container_restaurantes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .photo_restaurantes{
+            width: 200px;
+            margin: 10px;
+        }
+
+        .photo_restaurantes img {
+            width: 100%;
+            height: auto;
+        }
+
+        
+	ul {
+            list-style-type: none;
+			justify-content:center;
+			text-align:center;
+			display: inline-block;
+			font-size: 18px;
+            margin-bottom: 20px;
+			padding-left:10px;
+			
+			
+			
+        }
+	 .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #6141AC;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+		
+	.btn:hover {
+  background-color:#F7E135;
+}	
+		
+	.MEX{
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .main-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .photo-container_restaurantes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .photo_restaurantes{
+            width: 200px;
+            margin: 10px;
+        }
+
+        .photo_restaurantes img {
+            width: 100%;
+            height: auto;
+        }
+
+        
+	ul {
+            list-style-type: none;
+			justify-content:center;
+			text-align:center;
+			display: inline-block;
+			font-size: 18px;
+            margin-bottom: 20px;
+			padding-left:10px;
+			
+			
+			
+        }
+	 .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #6141AC;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+		
+	.btn:hover {
+  background-color:#F7E135;
+}	
+			
+	.DELATIERRA{
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .main-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .photo-container_restaurantes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .photo_restaurantes{
+            width: 200px;
+            margin: 10px;
+        }
+
+        .photo_restaurantes img {
+            width: 100%;
+            height: auto;
+        }
+
+        
+	ul {
+            list-style-type: none;
+			justify-content:center;
+			text-align:center;
+			display: inline-block;
+			font-size: 18px;
+            margin-bottom: 20px;
+			padding-left:10px;
+			
+			
+			
+        }
+	 .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #6141AC;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+		
+	.btn:hover {
+  background-color:#F7E135;
+}	
+				
+	.VEGGIE&GLUTENFREE{
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .main-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .photo-container_restaurantes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .photo_restaurantes{
+            width: 200px;
+            margin: 10px;
+        }
+
+        .photo_restaurantes img {
+            width: 100%;
+            height: auto;
+        }
+
+        
+	ul {
+            list-style-type: none;
+			justify-content:center;
+			text-align:center;
+			display: inline-block;
+			font-size: 18px;
+            margin-bottom: 20px;
+			padding-left:10px;
+			
+			
+			
+        }
+	 .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #6141AC;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+		
+		
+	.btn:hover {
+  background-color:#F7E135;
+}		
+		
+
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:150px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.imagenmerienda {
+  display: flex;
+  align-items: center;
+ 
+  
+}
+
+img  {
+  width: 200px;
+  height: 200px;
+
+  }
+		
+#merienda{
+	border-radius:25%;
+}		
+		
+.text {
+  margin-left: 50px;
+}	
+		
+		
+		
+ .footer_amarillo{
+	padding:10px;
+	height: 300px;
+	background-color:#F7E135;
+	text-align:center;
+	align-items: center;  
+	justify-content: space-around; 
+	bottom:0px;
+}
+  
+footer img {
+      margin: 0 10px;
+      width: 50px;
+      height:50px;
+    }
+#footer-politicas{
+	
+padding:50px;
+justify-content:space-around;
+display: flex;
+align-items: center;  
+
+
+	}
+	
+.politicas {
+text-decoration: none;
+color:#000000;
+
+
+}	
+	
+.politicas:hover {
+background-color:#6141AC;
+
+}		
